@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "SkipMyAccessibility",
+    "description": "Skips the Accessibility Mode Chooser when signing into MyUCSC",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["https://my.ucsc.edu/psp/csprd/?&cmd=login&languageCd=ENG&"],
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ],  
+    "permissions": [
+            "activeTab"
+            ]
+
+}
