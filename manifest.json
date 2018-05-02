@@ -1,8 +1,9 @@
 {
     "manifest_version": 2,
-    "name": "SkipMyAccessibility",
-    "description": "Skips the Accessibility Mode Chooser when signing into MyUCSC and enables SSO by default.",
+    "name": "SlugSavvy",
+    "description": "Quality of life improvements for MyUCSC.",
     "version": "1.1",
+	"homepage_url": "https://github.com/maxpereira/slugsavvy",
     "content_scripts": [
         {
             "matches": ["https://my.ucsc.edu/psp/csprd/*"],
